@@ -1,4 +1,4 @@
-# Distance and Elevation Calculator
+# Distance Matrix
 
 This project involves using Azure Maps and Google Maps API keys to calculate distances and elevation differences between two points. The repository contains two Python scripts:
 
@@ -53,15 +53,6 @@ The scripts read from an Excel file with the following structure:
 
 Before running the script, ensure your Excel file has the **region**, **territory**, and **cluster** columns populated with accurate data.
 
-
-### Additional Columns
-
-Before running the script, add the following columns to the input Excel file:
-
-- **cluster**: Administrative sub-boundary (e.g., ward).
-- **territory**: Administrative mid-boundary (e.g., district).
-- **region**: Administrative top-level boundary (e.g., county).
-
 ### Running the Scripts
 
 1. Update the file paths in the scripts to match your input Excel file location.
@@ -81,6 +72,10 @@ Before running the script, add the following columns to the input Excel file:
 
 - Ensure that your input Excel file is properly formatted before running the scripts.
 - The scripts are executable and designed to handle latitude and longitude coordinate strings separated by commas.
+
+## Authors
+ 
+Philip Nyakwaka - [Github](https://github.com/philipnyakwaka1) / [Twitter](https://x.com/ominaphillip18)
 
 ## License
 
