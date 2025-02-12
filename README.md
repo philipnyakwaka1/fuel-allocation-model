@@ -41,13 +41,18 @@ This project involves using Azure Maps and Google Maps API keys to calculate dis
 
 The scripts read from an Excel file with the following structure:
 
-| origin         | destination    | region         |
-|----------------|----------------|----------------|
-| 1.2921,36.8219 | -1.2867,36.8172 | Nairobi County |
+| origin         | destination     | region          | territory       | cluster         |
+|----------------|-----------------|-----------------|-----------------|-----------------|
+| 1.2921,36.8219 | -1.2867,36.8172 | Nairobi County  | Central Nairobi | Cluster A       |
 
-- **origin**: Latitude, Longitude of the origin point (e.g., `1.2921,36.8219`).
-- **destination**: Latitude, Longitude of the destination point (e.g., `-1.2867,36.8172`).
-- **region**: The administrative area where the points lie (optional).
+- **origin**: Coordinates of the starting location in `latitude,longitude` format.
+- **destination**: Coordinates of the ending location in `latitude,longitude` format.
+- **region**: Administrative area where the points lie (e.g., county, province).
+- **territory**: A smaller administrative or sales boundary within the region (e.g., sub-county or district).
+- **cluster**: A grouping of points within the territory for further analysis (e.g., sales cluster).
+
+Before running the script, ensure your Excel file has the **region**, **territory**, and **cluster** columns populated with accurate data.
+
 
 ### Additional Columns
 
