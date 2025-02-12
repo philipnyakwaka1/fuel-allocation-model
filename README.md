@@ -53,6 +53,17 @@ The scripts read from an Excel file with the following structure:
 
 Before running the script, ensure your Excel file has the **region**, **territory**, and **cluster** columns populated with accurate data.
 
+### Setting Up API Keys
+
+The scripts require both **Google Maps API** and **Azure Maps API** keys to work. These keys must be stored in a `.env` file in the root of the project for security and easy access.
+
+1. Create a `.env` file in the root directory of your project.
+2. Add the following lines to the `.env` file:
+
+   ```env
+   subscription_key=YOUR_GOOGLE_MAPS_API_KEY
+   api_key=YOUR_AZURE_MAPS_API_KEY
+
 ### Running the Scripts
 
 1. Update the file paths in the scripts to match your input Excel file location.
