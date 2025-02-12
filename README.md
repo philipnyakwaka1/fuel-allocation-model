@@ -90,8 +90,7 @@ Philip Nyakwaka - [Github](https://github.com/philipnyakwaka1) / [Twitter](https
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+Public Domain. No copy write protection.
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests!
